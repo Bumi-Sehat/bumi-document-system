@@ -4,7 +4,10 @@
   "description": "Document entry and management system for Bumi Sehat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -17,17 +20,19 @@
   },
   "homepage": "https://github.com/Bumi-Sehat/bumi-document-system#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
     "babel-loader": "^8.2.2",
-    "express": "^4.17.1",
     "nodemon": "^2.0.12",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
-    "webpack": "^5.51.1",
-    "webpack-cli": "^4.8.0"
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
   }
 }
