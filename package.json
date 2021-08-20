@@ -1,0 +1,19 @@
+{
+  "name": "bumi-document-system",
+  "version": "1.0.0",
+  "description": "Document entry and management system for Bumi Sehat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bumi-Sehat/bumi-document-system.git"
+  },
+  "author": "Mark Scrudder, Carl Jehle",
+  "license": "CC-BY-NC-SA-3.0",
+  "bugs": {
+    "url": "https://github.com/Bumi-Sehat/bumi-document-system/issues"
+  },
+  "homepage": "https://github.com/Bumi-Sehat/bumi-document-system#readme"
+}
