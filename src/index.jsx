@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/home.jsx';
 import NewDocument from './pages/newdocument.jsx';
 import Update from './pages/update.jsx';
-import UserManagement from './pages/usermanagement.jsx';
+import UserManagement from './pages/userManagement.jsx';
 
 class Main extends React.Component {
 
