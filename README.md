@@ -12,3 +12,12 @@ npm run react-dev
 
 Start server and keep live updates for server code changes:
 npm run server-dev
+
+# GitHub
+
+KEY: Origin - mine Org organization repo
+Push to my repo - 
+git remote push origin
+
+Pull from main to update origin
+git remote pull org
