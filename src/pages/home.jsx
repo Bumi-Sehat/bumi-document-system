@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/navbar.jsx';
+import Button from '../components/button.jsx';
 
 const Home = () => {
   return (

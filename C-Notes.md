@@ -1,5 +1,4 @@
 # GitHub
-
 KEY: Origin - mine Org organization repo
 Push to my repo - 
 git push origin - to push to mine
