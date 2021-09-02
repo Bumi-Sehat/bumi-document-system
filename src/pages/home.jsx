@@ -1,4 +1,5 @@
 import React from 'react';
+import NewDocument from './newdocument.jsx';
 import Navbar from '../components/navbar.jsx';
 import Button from '../components/button.jsx';
 import Item from '../components/item.jsx';
@@ -15,11 +16,6 @@ const Home = () => {
         <br />
         Lorem Ipsum
       </div>
-      {/* <Button />
-      <List />
-      <RadioButton /> */}
-      <TextField />
-      {/* <DropDown /> */}
     </div>
   );
 };
