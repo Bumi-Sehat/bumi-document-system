@@ -2,10 +2,20 @@ import React, {Component} from 'react'
 
 class TextField extends Component {
 
+    state = {
+        text: ""
+    }
+
+    handleChange = (e) => {
+        this.setState({
+            text: e.target.text
+        })
+    }
+
     render() {
         return(
             <>
-            <input placeholder="Enter some text" name="name"></input>
+            <input text="Enter some text" name="name" onChange={this.handleChange}></input>
             <p id="log"></p>
             </>
         )
