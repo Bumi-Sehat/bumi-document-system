@@ -6,22 +6,22 @@ const Navbar = () => {
     <div className='container'>
       <Link className='navbar' to='/'>
         <span className='home link'>
-          Home
+          Home{" "}
         </span>
       </Link>
       <Link className='navbar' to='/newdocument'>
         <span className='new-document link'>
-          New Document
+          New Document{" "}
         </span>
       </Link>
       <Link className='navbar' to='/update'>
         <span className='update link'>
-          Update Document
+          Update Document{" "}
         </span>
       </Link>
       <Link className='navbar' to='/userManagement'>
         <span className='user-management link'>
-          User Management
+          User Management{" "}
         </span>
       </Link>
     </div>

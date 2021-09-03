@@ -1,16 +1,32 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Navbar from '../components/navbar.jsx';
+import TextField from '../components/textField.jsx';
+import Button from '../components/button.jsx';
 
-const NewDocument = () => {
-  return (
-    <div>
-      <Navbar />
+class NewDocument extends Component{
+
+  state = {
+    on: true
+  }
+
+  handleClick = (e) => {
+    const checked = this.state.on
+    this.setState({
+        on: !checked
+    })
+  } 
+  render(){
+    return (
       <div>
-        <br />
-        Lorem Ipsum
+        <Navbar />
+        <div>
+          <br />
+          <TextField />
+          <Button />
+        </div>
       </div>
-    </div>
-  );
-};
+    )
+  }
+}
 
-export default NewDocument;
+export default NewDocument

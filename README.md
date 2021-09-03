@@ -12,3 +12,6 @@ npm run react-dev
 
 Start server and keep live updates for server code changes:
 npm run server-dev
+
+# To Do 
+Need to implement mapStateToProps in parent objects to pass props to the forms for form field titles and also entered data.
